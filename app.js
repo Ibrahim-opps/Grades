@@ -1,0 +1,12 @@
+let students = ["Michael", "John", "josh"];
+let scores = [500, 357, 420];
+let totalMarks = 500;
+let percentage0 = scores[0] / totalMarks * 100;
+let percentage1 = scores[1] / totalMarks * 100;
+let percentage2 = scores[2] / totalMarks * 100;
+document.write("Score of " + students[0] + " is " + scores[0] + ". Percentage: " + percentage0 + "%<br>");
+document.write("Remarks: Michael is majestic<br><br>");
+document.write("Score of " + students[1] + " is " + scores[1] + ". Percentage: " + percentage1 + "%<br>");
+document.write("Remarks: Keep trying, John!<br><br>");
+document.write("Score of " + students[2] + " is " + scores[2] + ". Percentage: " + percentage2 + "%<br>");
+document.write("Remarks: Excellent work, josh!<br>");
